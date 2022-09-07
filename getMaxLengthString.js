@@ -8,5 +8,4 @@ function getMaxLengthString(arrayOfString) {
     })
     return arrayOfString.filter(str => str.length >= max)
 }
-console.log(getMaxLengthString(["Hello","World","Hi","find"]))
 module.exports = getMaxLengthString
